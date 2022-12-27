@@ -3,6 +3,11 @@
 import os
 import sys
 
+key = ''
+# Open the keys.txt file in read-only mode
+with open("../keys.txt", "r") as f:
+    # Read the contents of the file and store it in the key variable
+    key = f.read()
 
 def main():
     """Run administrative tasks."""
